@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 
 @RunWith(Cucumber.class)
-@CucumberOptions(monochrome = true)
+@CucumberOptions(features="src/test/java", glue = "cucumb.features")
 public class RunCukesTest {
 
 
